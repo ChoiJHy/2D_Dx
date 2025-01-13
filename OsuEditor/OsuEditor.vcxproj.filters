@@ -1,0 +1,438 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="헤더 파일">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="MFC">
+      <UniqueIdentifier>{b9007b96-b44e-4301-9869-b96b277c1874}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MFC\App">
+      <UniqueIdentifier>{3d74a356-89b5-4de0-a22d-277ad543b74b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MFC\MainFrame">
+      <UniqueIdentifier>{8ac64175-c769-490a-82c6-7181394b5584}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine">
+      <UniqueIdentifier>{4ab7e533-efc6-425a-8410-22979323c809}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\01. Core">
+      <UniqueIdentifier>{503b2af8-69f1-41ab-a86a-5b8badf884e7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\02. Device">
+      <UniqueIdentifier>{d2b3a910-19b5-42f8-a4ba-70e062e9ada5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\03. Camera">
+      <UniqueIdentifier>{ba76feef-b0d6-435c-b67f-c1d6a8064402}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\04. GameObject">
+      <UniqueIdentifier>{b9b60663-2fd4-4690-9fcb-14e1073ae2cb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\04. GameObject\Component">
+      <UniqueIdentifier>{f9e064a9-f04c-469a-ae83-7a1036c99aa9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\04. GameObject\Component\Renderer">
+      <UniqueIdentifier>{ce3a1795-e1ea-4e0d-a17e-b2b5c7057370}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\04. GameObject\Component\Script">
+      <UniqueIdentifier>{4e552657-d84a-4f0f-9edb-1f983be1063b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\04. GameObject\Component\Transform">
+      <UniqueIdentifier>{2fb4ab7d-74ca-4283-82ea-2cb35a6a1789}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\04. GameObject\Component\Animator">
+      <UniqueIdentifier>{0fa4c816-7938-4234-8745-625a116ae8be}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\04. GameObject\Component\Animator\Animation">
+      <UniqueIdentifier>{95041571-affb-4669-ad6d-ac90cb5496b8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\04. GameObject\Component\Collider">
+      <UniqueIdentifier>{d862871b-22b2-4e3c-b597-3f01029e02bd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\05. Resoureces">
+      <UniqueIdentifier>{7a25b68f-12ef-4386-ae03-2bf8c84cb7da}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\05. Resoureces\01. Mesh">
+      <UniqueIdentifier>{67a02cd0-31da-4375-a99b-3833523a5a52}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\05. Resoureces\02. Texture">
+      <UniqueIdentifier>{2e0ebf4c-f2e3-4aee-ae5b-6fe3039d0cb5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\06. Scene">
+      <UniqueIdentifier>{aa862968-7c79-4961-97c9-d55c1241281c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\06. Scene\01. Scene">
+      <UniqueIdentifier>{b0576941-6537-4352-8af2-37eb75c48896}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\06. Scene\01. Scene\StartScene">
+      <UniqueIdentifier>{142f1d2b-1243-48c9-9f8f-f4142842440d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\06. Scene\01. Scene\TestScene">
+      <UniqueIdentifier>{c90a2926-f3cb-4630-aaaa-71195bff5e13}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\06. Scene\02. Layer">
+      <UniqueIdentifier>{08acc933-e2a0-4745-b620-9f69cb2763b7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\07. Manager">
+      <UniqueIdentifier>{3c807901-b0b5-4d57-a9a9-fee7f32e60e3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\07. Manager\01. ResMgr">
+      <UniqueIdentifier>{772aac21-2d09-42e4-bdb1-7e6b9b678adc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\07. Manager\02. SceneMgr">
+      <UniqueIdentifier>{8d814c80-0373-444a-9fa2-3ecb843362ee}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\07. Manager\03. PathMgr">
+      <UniqueIdentifier>{45aeb1ec-6942-4e26-a106-0c0c95a048ff}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\07. Manager\04. TimeMgr">
+      <UniqueIdentifier>{d3ce49b2-68a4-4379-866f-c74c1946272e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\07. Manager\05. KeyMgr">
+      <UniqueIdentifier>{e7e8744a-ba7a-493c-9163-d48eaeb86441}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\07. Manager\06. CollisionMgr">
+      <UniqueIdentifier>{a69473f2-a726-4b54-8f49-65bfebae3677}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\07. Manager\07. SoundMgr">
+      <UniqueIdentifier>{010ddf25-f210-4bbf-88a3-278258ac6abf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\08. SmartPointer">
+      <UniqueIdentifier>{221270fa-92c4-47ae-a8af-98fb97ad9620}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameScript">
+      <UniqueIdentifier>{87c93dd2-074c-40ae-b8e9-f0f2ca52b203}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameScript\MoveScript">
+      <UniqueIdentifier>{8cd5c930-dd34-4f0a-b500-20b660c9db36}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameScript\BulletScript">
+      <UniqueIdentifier>{3e6ad30a-191a-4ca1-b6b5-747b747d9225}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameScript\ButtonScript">
+      <UniqueIdentifier>{fec9b5c2-13e5-47c9-8717-f8e3d0f2e2d4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameScript\ButtonScript\MainButtonScript">
+      <UniqueIdentifier>{b91d80b3-2e51-4d0b-8d78-67d53dea1cc8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameScript\PlayScript">
+      <UniqueIdentifier>{f36d6667-f9e0-4069-9de8-abc74c27545a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MFC\View">
+      <UniqueIdentifier>{9e3f78a8-6c71-433d-9267-725fc086225d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MFC\View\3. ComView">
+      <UniqueIdentifier>{ad353ca9-a751-46d6-97d4-ff63da21aeb0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MFC\View\1. GameView">
+      <UniqueIdentifier>{e031176b-fa04-4b05-9840-97c8e6687e71}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MFC\View\2. HierachyView">
+      <UniqueIdentifier>{df94b280-608e-4d69-bc75-55f072ea591f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MFC\View\3. ComView\ColliderDlg">
+      <UniqueIdentifier>{103615da-8654-45bc-a9eb-5f2f004cbbcc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MFC\View\3. ComView\AnimatorDlg">
+      <UniqueIdentifier>{9f2454b8-a787-430c-869a-f8ba845ca484}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MFC\View\3. ComView\RendererDlg">
+      <UniqueIdentifier>{2f461e67-765e-4636-8cb7-a15235654aa3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MFC\View\3. ComView\TransformDlg">
+      <UniqueIdentifier>{bccb6fbb-f85d-432d-ad30-74024e07ee02}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MFC\View\3. ComView\Script">
+      <UniqueIdentifier>{43e38083-0db9-42ec-855b-8afcdaa28212}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\value.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\define.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\struct.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="MainFrm.h">
+      <Filter>MFC\MainFrame</Filter>
+    </ClInclude>
+    <ClInclude Include="OsuEditor.h">
+      <Filter>MFC\App</Filter>
+    </ClInclude>
+    <ClInclude Include="HierachyView.h">
+      <Filter>MFC\View\2. HierachyView</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\Core.h">
+      <Filter>Engine\01. Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\Device.h">
+      <Filter>Engine\02. Device</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\Camera.h">
+      <Filter>Engine\03. Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\GameObject.h">
+      <Filter>Engine\04. GameObject</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\Component.h">
+      <Filter>Engine\04. GameObject\Component</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\Renderer.h">
+      <Filter>Engine\04. GameObject\Component\Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\Script.h">
+      <Filter>Engine\04. GameObject\Component\Script</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\Transform.h">
+      <Filter>Engine\04. GameObject\Component\Transform</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\Animator.h">
+      <Filter>Engine\04. GameObject\Component\Animator</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\Animation.h">
+      <Filter>Engine\04. GameObject\Component\Animator\Animation</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\Collider.h">
+      <Filter>Engine\04. GameObject\Component\Collider</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\Res.h">
+      <Filter>Engine\05. Resoureces</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\Mesh.h">
+      <Filter>Engine\05. Resoureces\01. Mesh</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\Texture.h">
+      <Filter>Engine\05. Resoureces\02. Texture</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\Scene.h">
+      <Filter>Engine\06. Scene\01. Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\StartScene.h">
+      <Filter>Engine\06. Scene\01. Scene\StartScene</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\TestScene.h">
+      <Filter>Engine\06. Scene\01. Scene\TestScene</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\Layer.h">
+      <Filter>Engine\06. Scene\02. Layer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\ResMgr.h">
+      <Filter>Engine\07. Manager\01. ResMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\SceneMgr.h">
+      <Filter>Engine\07. Manager\02. SceneMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\PathMgr.h">
+      <Filter>Engine\07. Manager\03. PathMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\TimeMgr.h">
+      <Filter>Engine\07. Manager\04. TimeMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\KeyMgr.h">
+      <Filter>Engine\07. Manager\05. KeyMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\CollisionMgr.h">
+      <Filter>Engine\07. Manager\06. CollisionMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\SoundMgr.h">
+      <Filter>Engine\07. Manager\07. SoundMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\RsPtr.h">
+      <Filter>Engine\08. SmartPointer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\MoveScript.h">
+      <Filter>GameScript\MoveScript</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\BulletScript.h">
+      <Filter>GameScript\BulletScript</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\MainButtonScript.h">
+      <Filter>GameScript\ButtonScript\MainButtonScript</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\PlayScript.h">
+      <Filter>GameScript\PlayScript</Filter>
+    </ClInclude>
+    <ClInclude Include="GameView.h">
+      <Filter>MFC\View\1. GameView</Filter>
+    </ClInclude>
+    <ClInclude Include="MyMessage.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="ComView.h">
+      <Filter>MFC\View\3. ComView</Filter>
+    </ClInclude>
+    <ClInclude Include="TransformDlg.h">
+      <Filter>MFC\View\3. ComView\TransformDlg</Filter>
+    </ClInclude>
+    <ClInclude Include="RendererDlg.h">
+      <Filter>MFC\View\3. ComView\RendererDlg</Filter>
+    </ClInclude>
+    <ClInclude Include="ColliderDlg.h">
+      <Filter>MFC\View\3. ComView\ColliderDlg</Filter>
+    </ClInclude>
+    <ClInclude Include="AnimatorDlg.h">
+      <Filter>MFC\View\3. ComView\AnimatorDlg</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="MainFrm.cpp">
+      <Filter>MFC\MainFrame</Filter>
+    </ClCompile>
+    <ClCompile Include="OsuEditor.cpp">
+      <Filter>MFC\App</Filter>
+    </ClCompile>
+    <ClCompile Include="HierachyView.cpp">
+      <Filter>MFC\View\2. HierachyView</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Include\Core.cpp">
+      <Filter>Engine\01. Core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Include\Device.cpp">
+      <Filter>Engine\02. Device</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Include\Camera.cpp">
+      <Filter>Engine\03. Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Include\GameObject.cpp">
+      <Filter>Engine\04. GameObject</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Include\Component.cpp">
+      <Filter>Engine\04. GameObject\Component</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Include\Renderer.cpp">
+      <Filter>Engine\04. GameObject\Component\Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Include\Script.cpp">
+      <Filter>Engine\04. GameObject\Component\Script</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Include\Transform.cpp">
+      <Filter>Engine\04. GameObject\Component\Transform</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Include\Animator.cpp">
+      <Filter>Engine\04. GameObject\Component\Animator</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Include\Animation.cpp">
+      <Filter>Engine\04. GameObject\Component\Animator\Animation</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Include\Collider.cpp">
+      <Filter>Engine\04. GameObject\Component\Collider</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Include\Res.cpp">
+      <Filter>Engine\05. Resoureces</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Include\Mesh.cpp">
+      <Filter>Engine\05. Resoureces\01. Mesh</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Include\Texture.cpp">
+      <Filter>Engine\05. Resoureces\02. Texture</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Include\Scene.cpp">
+      <Filter>Engine\06. Scene\01. Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Include\StartScene.cpp">
+      <Filter>Engine\06. Scene\01. Scene\StartScene</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Include\TestScene.cpp">
+      <Filter>Engine\06. Scene\01. Scene\TestScene</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Include\Layer.cpp">
+      <Filter>Engine\06. Scene\02. Layer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Include\ResMgr.cpp">
+      <Filter>Engine\07. Manager\01. ResMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Include\SceneMgr.cpp">
+      <Filter>Engine\07. Manager\02. SceneMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Include\PathMgr.cpp">
+      <Filter>Engine\07. Manager\03. PathMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Include\TimeMgr.cpp">
+      <Filter>Engine\07. Manager\04. TimeMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Include\KeyMgr.cpp">
+      <Filter>Engine\07. Manager\05. KeyMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Include\CollisionMgr.cpp">
+      <Filter>Engine\07. Manager\06. CollisionMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Include\SoundMgr.cpp">
+      <Filter>Engine\07. Manager\07. SoundMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Include\RsPtr.cpp">
+      <Filter>Engine\08. SmartPointer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Include\MoveScript.cpp">
+      <Filter>GameScript\MoveScript</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Include\BulletScript.cpp">
+      <Filter>GameScript\BulletScript</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Include\MainButtonScript.cpp">
+      <Filter>GameScript\ButtonScript\MainButtonScript</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Include\PlayScript.cpp">
+      <Filter>GameScript\PlayScript</Filter>
+    </ClCompile>
+    <ClCompile Include="GameView.cpp">
+      <Filter>MFC\View\1. GameView</Filter>
+    </ClCompile>
+    <ClCompile Include="ComView.cpp">
+      <Filter>MFC\View\3. ComView</Filter>
+    </ClCompile>
+    <ClCompile Include="TransformDlg.cpp">
+      <Filter>MFC\View\3. ComView\TransformDlg</Filter>
+    </ClCompile>
+    <ClCompile Include="RendererDlg.cpp">
+      <Filter>MFC\View\3. ComView\RendererDlg</Filter>
+    </ClCompile>
+    <ClCompile Include="ColliderDlg.cpp">
+      <Filter>MFC\View\3. ComView\ColliderDlg</Filter>
+    </ClCompile>
+    <ClCompile Include="AnimatorDlg.cpp">
+      <Filter>MFC\View\3. ComView\AnimatorDlg</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="OsuEditor.rc">
+      <Filter>리소스 파일</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\OsuEditor.rc2">
+      <Filter>리소스 파일</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="res\OsuEditor.ico">
+      <Filter>리소스 파일</Filter>
+    </Image>
+  </ItemGroup>
+</Project>
